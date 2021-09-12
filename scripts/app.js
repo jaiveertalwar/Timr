@@ -3614,7 +3614,7 @@ $('.tvshow').change(function() {
   } else {
     var $listItem = $('.select2-results');
     $listItem.parent().css("display", "block");
-    $('<li />').addClass('select2-no-results').html('This show has an error. Please select a different one.').appendTo($listItem);
+    $('<li />').addClass('select2-no-results').html('We do not have that in our databases. ').appendTo($listItem);
     hasSelectedShow = false;
 
     // removes default plugin tv show added in their format
